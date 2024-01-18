@@ -1,9 +1,13 @@
 
 import React from 'react'
+import { Navegador } from '../components/Navegador/Navegador'
 
 export const Inicio = () => {
   return (
+    <>
+    <Navegador/>
     <div> inicio</div>
+    </>
   
   )
 }
