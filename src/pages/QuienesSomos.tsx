@@ -6,7 +6,7 @@ export const QuienesSomos = () => {
   return (
     <>
     <Navegador/>
-    <div>QuienesSomos</div>
+    <div>Quienes Somos</div>
     </>
   )
 }

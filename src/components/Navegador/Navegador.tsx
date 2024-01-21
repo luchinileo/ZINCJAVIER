@@ -1,5 +1,7 @@
 import { Grid } from '@mui/material'
 import React from 'react'
+import { NavLink } from 'react-router-dom';
+import styles from './Navegador.module.css'
 
 export const Navegador = () => {
   return (
@@ -12,10 +14,10 @@ export const Navegador = () => {
         </Grid>
         <Grid item xs={12} md={8}>
             <ul style={{display:'flex'}}>
-                <li style={{marginLeft:'25px'}}>Inicio</li>
-                <li style={{marginLeft:'25px'}}>Quienes Somos</li>
-                <li style={{marginLeft:'25px'}}>Producto</li>
-                <li style={{marginLeft:'25px'}}>Contacto</li>
+                <NavLink to={'/'} style={{marginLeft:'25px'}} className={styles.link}>Inicio</NavLink>
+                <NavLink to={'/quienessomos'} style={{marginLeft:'25px'}} className={styles.link}>Quienes Somos</NavLink>
+                <NavLink to={'/producto'} style={{marginLeft:'25px'}} className={styles.link}>Producto</NavLink>
+                <NavLink to={'/contacto'} style={{marginLeft:'25px'}} className={styles.link}>Contacto</NavLink>
             </ul>
         </Grid>
     </Grid>
