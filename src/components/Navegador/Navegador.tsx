@@ -14,10 +14,20 @@ export const Navegador = () => {
         </Grid>
         <Grid item xs={12} md={8}>
             <ul style={{display:'flex'}}>
-                <NavLink to={'/'} style={{marginLeft:'25px'}} className={styles.link}>Inicio</NavLink>
-                <NavLink to={'/quienessomos'} style={{marginLeft:'25px'}} className={styles.link}>Quienes Somos</NavLink>
-                <NavLink to={'/producto'} style={{marginLeft:'25px'}} className={styles.link}>Producto</NavLink>
-                <NavLink to={'/contacto'} style={{marginLeft:'25px'}} className={styles.link}>Contacto</NavLink>
+                <NavLink to={'/'}  className={styles.link} 
+                style={({isActive}) =>({
+                  color:isActive ? 'red' : 'black ',
+                })}
+                >Inicio</NavLink>
+                <NavLink to={'/quienessomos'} style={({isActive}) =>({
+                  color:isActive ? 'red' : 'black ',
+                })} className={styles.link}>Quienes Somos</NavLink>
+                <NavLink to={'/producto'} style={({isActive}) =>({
+                  color:isActive ? 'red' : 'black ',
+                })} className={styles.link}>Producto</NavLink>
+                <NavLink to={'/contacto'} style={({isActive}) =>({
+                  color:isActive ? 'red' : 'black ',
+                })} className={styles.link}>Contacto</NavLink>
             </ul>
         </Grid>
     </Grid>
