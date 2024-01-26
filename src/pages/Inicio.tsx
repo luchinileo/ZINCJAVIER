@@ -4,10 +4,10 @@ import { Navegador } from '../components/Navegador/Navegador'
 
 export const Inicio = () => {
   return (
-    <>
+    <div className='conteinerprincipal'>
     <Navegador/>
     <div> inicio</div>
-    </>
+    </div>
   
   )
 }
