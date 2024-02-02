@@ -1,8 +1,8 @@
 {
-    "proyectos":[
+    "proyecto":[
         {
             "id":"1",
-            "image":"",
+            
            "title":"rejas",
            "description":"rejas con 40 40",
            "url":"Proyecto 1",

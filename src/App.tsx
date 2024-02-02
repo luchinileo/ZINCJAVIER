@@ -8,7 +8,7 @@ import { Contacto } from './pages/Contacto'
 import { Error } from './pages/Error'
 
 function App() {
- 
+   
 
   return (
     <BrowserRouter>
@@ -19,6 +19,7 @@ function App() {
       <Route path='/contacto' element={<Contacto/>}/>
       <Route path='*' element={<Error/>}/>
     </Routes>
+    
     </BrowserRouter>
   )
 }
