@@ -1,11 +1,21 @@
-body, html {
+body{
   margin: 0;
-  
+  padding: 0;
+  min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% de la ventana */
+  display: flex;
+  flex-direction: column;
   
 }
 html{
+  margin: 0;
   
   font-family: 'Roboto', sans-serif;
+}
+#root {
+  flex: 1; /* Hace que el contenedor principal ocupe el espacio restante */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .box{
   border: 2px solid tomato;
@@ -16,7 +26,7 @@ html{
   background-image: url(https://images.unsplash.com/photo-1665492085149-21fcb2617dba?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   
 
 }
@@ -110,20 +120,23 @@ button:hover {
   background-image: url(https://media.istockphoto.com/id/1218264991/es/foto/cerca-met%C3%A1lica-cerca-rizada-de-metal-en-el-parque.jpg?s=2048x2048&w=is&k=20&c=hQFTqYkRwWZyiGb-_ARba8gcLos6USRmWe4OnRkfK0M=);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   
 }
 .somos{
   background-image: url(https://media.istockphoto.com/id/486809991/es/vector/carpenter.jpg?s=612x612&w=0&k=20&c=JVNr0wfoR7HW3qsJy4EdcUz6vDTt_rHLDZhAla1vlEA=);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   
 }
 .container-contacto{
   background-image: url(https://media.istockphoto.com/id/486809991/es/vector/carpenter.jpg?s=612x612&w=0&k=20&c=JVNr0wfoR7HW3qsJy4EdcUz6vDTt_rHLDZhAla1vlEA=);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
 
+}
+footer {
+  margin-top: auto;
 }

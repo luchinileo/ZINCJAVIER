@@ -6,6 +6,7 @@ import { Productos } from './pages/Productos'
 import { QuienesSomos } from './pages/QuienesSomos'
 import { Contacto } from './pages/Contacto'
 import { Error } from './pages/Error'
+import Footer from './components/footer/Footer'
 
 function App() {
    
@@ -19,7 +20,7 @@ function App() {
       <Route path='/contacto' element={<Contacto/>}/>
       <Route path='*' element={<Error/>}/>
     </Routes>
-    
+    <Footer/>
     </BrowserRouter>
   )
 }

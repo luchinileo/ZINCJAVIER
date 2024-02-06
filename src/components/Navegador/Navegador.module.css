@@ -8,3 +8,37 @@
    
 }
 /* este le ponemos none y le saca lo subrayada al texto */
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .linksContainer {
+    display: flex;
+    justify-content: flex-end; /* Alinea los enlaces a la derecha */
+  }
+  
+  .linkList {
+    list-style: none;
+    display: flex;
+  }
+  
+  .linkList li {
+    margin-right: 15px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .activeLink {
+    color: red;
+  }
