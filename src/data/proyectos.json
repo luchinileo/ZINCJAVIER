@@ -17,6 +17,42 @@
            "url":"Proyecto 2",
            "url_demo":"Proyecto 2"
     
+        },
+        {
+            "id":"2",
+            "image":"",
+           " title":"canaletas",
+           "description":"canaletas de color negras",
+           "url":"Proyecto 2",
+           "url_demo":"Proyecto 2"
+    
+        },
+        {
+            "id":"2",
+            "image":"",
+           " title":"canaletas",
+           "description":"canaletas de color negras",
+           "url":"Proyecto 2",
+           "url_demo":"Proyecto 2"
+    
+        },
+        {
+            "id":"5",
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.materialesparatejados.com%2Fperfiles-estructuras-metalicas&psig=AOvVaw3qoAz-DmdjStBMKAhSTyKv&ust=1707770711476000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLCcut6SpIQDFQAAAAAdAAAAABAE",
+           " title":"canaletas",
+           "description":"",
+           "url":"Proyecto 2",
+           "url_demo":"Proyecto 2"
+    
+        },
+        {
+            "id":"6",
+            "image":"",
+           " title":"estructura",
+           "description":"canaletas de color negras",
+           "url":"https://as2.ftcdn.net/v2/jpg/01/99/81/31/1000_F_199813138_utj0TpERoTLfBuDnIMB6NrWdt903e9QO.jpg",
+           "url_demo":"Proyecto 2"
+    
         }
     ]
 }

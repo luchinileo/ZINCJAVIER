@@ -5,8 +5,12 @@ const Footer: React.FC = () => {
   return (
     <footer className="footer-container">
       <div className="footer-content">
-        <p>&copy; 2024 Tu Empresa - Todos los derechos reservados</p>
-        <p>Contacto: info@tuempresa.com</p>
+      <p>
+          <i className="material-icons">phone</i> Teléfono: 440098
+        </p>
+        <p>
+          <i className="material-icons">email</i> Contacto: zingueria@gmail.com
+        </p>
       </div>
     </footer>
   );
